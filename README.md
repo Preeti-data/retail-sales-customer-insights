@@ -34,15 +34,20 @@ These measures power all KPI cards and visuals.
 
 # Dashboard Structure
 📍 Page 1 — Executive Summary
-KPI Cards:
+
+ KPI Cards:
  1. Total Revenue
  2. Total Profit
  3. Profit Margin %
-     Average Order Value (AOV),
-     Monthly Revenue Trend,
-     Revenue by Region,
-     Revenue by Item Type,
-Slicers: Region, Item Type, Sales Channel
+    
+• Average Order Value (AOV)
+
+• Monthly Revenue Trend
+
+• Revenue by Region
+
+• Revenue by Item Type
+
 
 📍 Page 2 — Customer & Market Insights
 1. Revenue by Country (Tree Map / Map Alternative)
@@ -53,4 +58,45 @@ Slicers: Region, Item Type, Sales Channel
 1. Units Sold by Item Type
 2. Profit Margin by Item Type
 4. High‑Priority Products Table (Low Margin + High Sales)
+
+# Key Insights
+Revenue & Profit:
+1. Revenue is highest in North America and Europe.
+2. Profit margin varies significantly by product category.
+3. Online channel contributes strongly to high‑value orders.
+
+Customer & Market:
+1. A few countries contribute the majority of revenue.
+2. Some regions show high sales volume but low profitability.
+
+Product Performance:
+1. Certain product categories have high units sold but low margins, indicating pricing or cost issues.
+2. Scatter plot reveals products priced too close to cost.
+
+# 🛠️ Tools & Technologies
+
+1. SQL (data cleaning, KPI calculations)
+2. Power BI (dashboard creation, DAX measures)
+3. GitHub (version control, project documentation)
+
+# Skills Demonstrated
+
+1. Data cleaning & transformation
+2. KPI development using DAX
+3. Dashboard design & storytelling
+4. Business insights & recommendations
+5. GitHub project structuring
+6. SQL + Power BI integration
+
+# Repository Structure
+/data        → Raw dataset (CSV)
+
+/sql         → SQL cleaning & KPI scripts
+
+/powerbi     → PBIX file
+
+/images      → Screenshots of dashboard pages
+
+README.md    → Project documentation
+
    
